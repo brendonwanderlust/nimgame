@@ -49,7 +49,7 @@ function playerTurn() {
     if (hasSomeoneWon()) {
         console.log("The game is over!")
     } else {
-        var numberPrompt = parseInt(prompt("Enter a number between 1 and 3"));
+        var numberPrompt = parseInt(prompt("There are " + rockNumber + " rocks left on the board. Enter a number between 1 and 3"));
         if (numberPrompt < 4 && numberPrompt > 0) {
             rockNumber -= numberPrompt;
         } else {
