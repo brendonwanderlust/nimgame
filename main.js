@@ -23,7 +23,7 @@ function computerTurn() {
 
 function juggernautTurn() {
     if (rockNumber === 7) {
-        rockNumber -= 1
+        rockNumber -= 2
         displayRocksLeft();
         isPlayer1Turn = !isPlayer1Turn
     } else if (rockNumber === 4) {
